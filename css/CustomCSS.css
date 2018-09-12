@@ -1,0 +1,87 @@
+/*
+CSS file for SAIT Project
+Author: Fantastic 4 (Brian, Lindsay, Jason, Sunghyun)
+Created: 2018-06-01;
+Last Modified: 2018-06-08;
+*/
+
+
+
+/* Lindsay Li*/
+.contact li {
+color: grey;
+}
+
+.contact h4 {
+  color: white;
+}
+
+.contact card
+.city {
+  position: relative;
+  
+}
+
+/* Brian Liang */
+
+.row-buffer{
+  margin-top:10px;
+  margin-bottom: 10px;
+ }
+
+ .span-width{
+   width: 100px;
+ }
+ .span-width-register{
+   width: 200px;
+ }
+
+
+/* Sunghyun Lee */
+.city .image {
+  display: block;
+  width: 100%;
+  height: 100%;
+}
+
+.city .overlay {
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  
+  overflow: hidden;
+  width: 100%;
+  height: 0;
+  transition: .5s ease;
+}
+
+.city:hover .overlay {
+  height: 100%;
+}
+
+.cityText {
+  color: black;
+  font-size: 20px;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  -ms-transform: translate(-50%, -50%);
+  text-align: center;
+}
+
+.carousel-item .image
+{
+	display: block;
+	width: 100%;
+	height: 400px;
+}
+
+@media(max-width:991px)
+{
+  .city .overlay
+  {
+    height: 100%;
+  }
+}
