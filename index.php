@@ -16,14 +16,14 @@ Created: 2018-06-01
 </head>
 <body>
   <?php 
-  include "php/header.php";
+  include "header.php";
   ?>
   <div class="container">
     <?php
-		include "php/cities.php";
+		include "cities.php";
     ?>
   </div>
-<?php include "php/footer.php"?>
+<?php include "footer.php"?>
 
 <script src="js/jquery-3.3.1.min.js"></script>
 <script src="js/bootstrap.min.js"></script>

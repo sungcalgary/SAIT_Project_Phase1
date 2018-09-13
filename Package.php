@@ -1,6 +1,5 @@
 <?php
 /**
-PHP file where classes are created for SAIT Project
 Author: Sunghyun Lee
 Created: 2018-06-05
 Last Modified: 2018-06-08

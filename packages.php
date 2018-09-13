@@ -16,7 +16,7 @@ Last Updated:2018-06-07
 </head>
 <body onload="display_destination()">
   	<?php 
-  	include "php/header.php";
+  	include "header.php";
   	//check if a 'Find Package' button was clicked on the index page. If yes, store its value into $searchItem
   	$searchItem='';
   	for ($i=1;$i<7;$i++) // there are 6 'Find Package' buttons on the index page
@@ -41,7 +41,7 @@ Last Updated:2018-06-07
     
 
     	<?php 
-    	include 'php/Package.php';
+    	include "Package.php";
       //connect to the database to get the number of rows of Package table
     	$myDb = new mysqli('localhost', 'root', '','travelexperts');
     	$sql = "SELECT PackageId FROM packages";
@@ -122,10 +122,10 @@ Last Updated:2018-06-07
   		  </table>
 		  </form>
     </div>    
-  <?php include "php/footer.php";?>
+  <?php include "footer.php";?>
 
 
-<script src="js/JSfunctions.js"></script>
+<script src="JSfunctions.js"></script>
 <script src="js/jquery-3.3.1.min.js"></script>
 <script src="js/bootstrap.min.js"></script>
 </body>
